@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background: url(/assets/img/landing-cute-roadmap.png) top center no-repeat, radial-gradient(ellipse at center, #7ed9c8 0%, rgba(41, 205, 200, 0.8) 0%, #0C526C 100%, #7ed9c8 100%, #182848 100%, #6e48aa 100%, #6e48aa 100%);
+  min-height: 50vh;
+  background-size: contain;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  header {
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+  }
+}
+
+.w-85 {
+  width: 85%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.category-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  list-style-type: none;
+}
+
+.navbar li {
+  text-decoration: none;
+  color: #C5C8CB;
+  cursor: pointer;
+}
+
+li.active {
+  color: #5f6468;
+  padding: 0 0.25rem;
+  border-bottom: 1px solid #A5ABAF;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.bolder {
+  font-weight: 600;
+}
+
+.bigger-size {
+  font-size: 1.25rem;
+}
+
+.giant-size {
+  font-size: 4rem;
+}
+
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.min-height {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lightblue {
+  background: linear-gradient(60deg, #7ed9c8, #2bd3ce);
+}
+
+.blue {
+  background: linear-gradient(60deg, #067d68, #50d5b7);
+}
+
+.darkblue {
+  background: linear-gradient(60deg, #107792, #0f404d);
+}
+
+.border {
+  border-radius: 10px;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+p, strong {
+  font-family: 'Helvetica Neue','Open Sans',sans-serif;
+  font-size: 1.1rem;
+}
+
+.section-bg {
+  background-color: #F2F2F2;
+}
+
+@media screen and (max-width: 575px) {
+  .navbar {
+    flex-direction: column !important;
+  }
+  .navbar li {
+    margin: 0.2rem auto !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */
