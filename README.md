@@ -23,7 +23,7 @@ The CUTE Roadmap kit consists of three apps to generate, check and finally publi
 This project is licensed under the MIT License
 
 ## Acknowledgments
-This project is funded by the European Union by the [Erasmus+ program] (https://erasmus-plus.ec.europa.eu/)
+This project is funded by the European Union by the [Erasmus+ program](https://erasmus-plus.ec.europa.eu/)
 
 ERASMUS+: Strategic Partnership (KA203-867FE04B)
 Project period: 1 September 2019 – 31 December 2022
